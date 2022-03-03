@@ -1,0 +1,32 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[Exitq]
+Class="Function"
+Prototype="int Exitq(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Fire]
+Class="Function"
+Prototype="int Fire(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Time]
+Class="Function"
+Prototype="int Time(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[resetall]
+Class="Function"
+Prototype="int resetall(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cursor]
+Class="Function"
+Prototype="int Cursor(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Load]
+Class="Function"
+Prototype="int Load(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[About]
+Class="Function"
+Prototype="int About(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
